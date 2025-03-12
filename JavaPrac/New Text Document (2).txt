@@ -1,0 +1,13 @@
+public class Factorial
+{
+public static void main(string[]args);
+{	int="2";	
+  	int f=1;
+	for(int i=2;i<f;i++)
+{
+	f=f*i;
+}
+System.out.println("Factorial is="+f);
+}
+
+}
