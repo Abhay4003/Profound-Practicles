@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CssAnimation</title>
+        <style>
+            div{
+                border: 10px dashed aqua;
+                width: 500px;
+                height: 400px;
+                animation-name: example;
+                animation-duration: 15s;
+                animation-delay: 2s;
+                animation-iteration-count: 2;
+
+            }
+            @keyframes example{
+                from{
+                    background-image: url(laptop.jpg);
+                    background-size: 200px;
+                    background-repeat: no-repeat;
+                }
+                to
+                {
+                    background-image: url(abc.gif);
+                    background-size: 500px;
+                    background-repeat: no-repeat;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Css Animation</h1>
+        <div>Click Here</div>
+    </body>
+</html>

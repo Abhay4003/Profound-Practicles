@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multiple bacground Css</title>
+        <style>
+            h1{
+                text-shadow: 5px 5px green;
+            }
+            #tp1
+            {
+                border: 20px solid black;
+                width: 900px;
+                height: 900px;
+                text-align: center;
+                background-image: url(abc.gif),url(warehouse.jpg);
+                background-position: right bottom,left top;
+                background-repeat: no-repeat,no-repeat;
+                background-size: contain,cover;
+                box-shadow: 16px 20px 18px red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            The border_radius prorperty
+        </h1>
+        <p>rounded corner for an element with a specified  background color:</p>
+        <p id="tp1"><b>Rounded corner</b></p>
+    </body>
+</html>
